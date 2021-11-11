@@ -60,7 +60,7 @@ jobs:
           
       - name: downloaod minieap
         run: |
-          git clone https://github.com/BoringCat/minieap-openwrt.git package/minieap
+          git clone git@github.com:kenvix/minieap-openwrt.git package/minieap
 
       - name: Update feeds
         run: |
