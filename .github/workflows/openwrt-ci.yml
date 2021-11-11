@@ -57,10 +57,6 @@ jobs:
           # ln -s /mnt/openwrt/staging_dir ./staging_dir
 
           df -h
-          
-      - name: downloaod minieap
-        run: |
-          git clone git@github.com:kenvix/minieap-openwrt.git package/minieap
 
       - name: Update feeds
         run: |
